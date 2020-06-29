@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="timer.css">
+  </head>
+  <body>
+    <div class="titleBlock">
+      <h1 id="title">크누타임</h1>
+      <h2 id="subtitle">크누타임은 간결하고, 직관적이며, 편리합니다.</h2>
+      <p id="linkBlock">링크 입력 : <input type="text" id="linkToPage" placeholder="던던던던"> <input type="button" id="linkAccess" value="던져던져!!"></p>
+    </div>
+    <script src="linkAccess.js"></script>
+    <div class="nowTime">
+      <h1 id="clock">00:00</h1>
+    </div>
+    <script src="clock.js"></script>
+    <div class="checkboxes">
+      <span id="hourAlarmBox"><input type="checkbox" id="hourAlarm">정각 알림 <input type="checkbox" class="beforeAlarm">정각 5분 전 알림 <input type="checkbox" class="beforeAlarm">정각 3분 전 알림<input type="checkbox" class="beforeAlarm">정각 1분 전 알림</span>
+      <span id="correctAlarmBox"><input type="checkbox" id="correctAlarm">특정시간 알람설정 <input type="text" placeholder="시" class="inputTime"> <input type="text" placeholder="분" class="inputTime"></span>
+    </div>
+    <script src="alarm.js"></script>
+    <script src="beforeAlarm.js"></script>
+  </body>
+</html>

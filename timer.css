@@ -1,0 +1,22 @@
+.nowTime{
+  text-align: center;
+  font-size: 40px;
+}
+
+.titleBlock{
+  text-align: center;
+}
+#title{
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.checkboxes{
+  display: inline;
+  position: relative;
+  left:17%;
+}
+
+#correctAlarmBox .inputTime{
+  width:60px;
+}
